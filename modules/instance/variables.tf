@@ -1,21 +1,20 @@
-variable "amin_id" {
+variable "ami_id" {
     type = string
     default = "ami-04169656fea786776"
   
 }
-variable "ins_typ" {
+variable "instance_type" {
     type = string
     default = "t2.micro"
   
 }
 variable "keyname" {
     type = string
-    default = "access"
+    default = "ec2_key"
   
 }
 
-
-variable "ins_name" {
+variable "instance_name" {
     type = string
     default = "Sample Instance"
   
