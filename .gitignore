@@ -1,0 +1,14 @@
+# ignore all exe file
+*.exe
+
+# ignore all pem file
+*.pem
+
+# ignore all these files to commit
+.terraform*
+*.tfstate
+*.tfstate*
+*.tfstate.backup
+*.tfvars
+.terraform.tfstate*
+terraform.*
